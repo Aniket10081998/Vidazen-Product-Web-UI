@@ -1,0 +1,26 @@
+.head
+{
+    position:relative;
+    height:250px;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 150px;
+  }
+
+select
+{
+	width:750px;
+	height:150px;
+	border-radius: 200px;
+	margin-top: 80px;
+	font-size: 50px;
+	padding: 30px 30px 30px 30px;
+	outline:none;
+	background-color: white;
+
+}
+img
+{
+	width:40px;
+	height:40px;
+}

@@ -1,0 +1,137 @@
+.head
+{
+    position:relative;
+    height:250px;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 220px;
+  }
+.slider3
+{
+    position:relative;
+    height:170px;
+    font-size: 50px;
+}
+  input[type="text"], input[type="password"], textarea, select { 
+    outline: none;
+}
+.button{
+color: white;
+/*border: 4px solid black ;*/
+border-radius: 100px;
+border-color: #494949 ;
+font-size: 50px;
+color: black;
+padding:30px 12px 30px 12px;
+box-sizing: border-box; 
+width:750px;
+}
+.button::placeholder {  
+                  
+text-align: center; 
+}
+.btn-group1  {
+  background-color: #FFFAFA;
+  color: #969696; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  display: inline; /* Float the buttons side by side */
+  border-top-left-radius:100px;
+  border-bottom-left-radius: 100px;
+  width:220px;
+  height:90px;
+  font-size: 30px;
+  margin-bottom: 100px;
+  outline: none;
+}
+.btn-group2  {
+  background-color: #FFFAFA;
+  color: #969696; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  display: inline; 
+  width:220px;
+  height:90px;
+  font-size: 30px;
+  margin-bottom: 100px;
+  outline: none;
+}
+.btn-group3  {
+  /*background-color: #FFFAFA; *//* Green background */
+  /*border: 1px solid #FFFAFA;*/ /* Green border */
+  background-color: #FFFAFA;
+  color: #969696; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  display: inline; 
+  border-top-right-radius:100px;
+  border-bottom-right-radius: 100px;
+  width:220px;
+  height:90px;
+  font-size: 30px;
+  margin-bottom: 100px;
+  outline: none;
+}
+
+
+.btn-group1:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group1:not(:last-child) {
+  border-right: none; 
+}
+.btn-group2:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group2:not(:last-child) {
+  border-right: none; 
+}
+.btn-group3:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group3:not(:last-child) {
+  border-right: none; 
+}
+
+/* Add a background color on hover */
+.btn-group1:hover {
+  background-color: #757789;
+  border: 1px solid #FFFAFA;
+}
+.btn-group2:hover {
+    background-color: #757789;
+    border: 1px solid #FFFAFA;
+    border-radius:50px;
+
+}
+.btn-group3:hover {
+  background-color: #757789;
+  border: 1px solid #FFFAFA;
+}
+.btn-group1:focus
+{
+  background-color: #757789;
+  border: 1px solid #FFFAFA;
+  color: white;
+}
+.btn-group2:focus
+{
+  background-color: #757789;
+  border: 1px solid #FFFAFA;
+  color: white;
+}
+.btn-group3:focus
+{
+  background-color: #757789;
+  border: 1px solid #FFFAFA;
+  color: white;
+}

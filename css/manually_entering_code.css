@@ -1,0 +1,47 @@
+.cam
+{
+	width:130px;
+	height:100px;
+	margin-top:250px;
+}
+.cross
+{
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.scan
+{
+	font-size:30px;
+	margin-top:70px;
+	color:#648fdf;
+}
+a
+{
+	text-decoration: none;
+}
+.text
+{
+	width:600px;
+	height: 80px;	
+	border-top:none;
+	border-left: none;
+	border-right:none;
+	border-bottom-width: 3px;
+	border-bottom-color: black;
+	outline: none;
+	font-size: 40px;
+	margin-top: 700px;
+	margin-left: 100px;
+}
+.but
+{
+	height:250px;
+	width:250px;
+	position: relative;
+	top: 120px;
+	
+}
+.foo {
+   bottom:0;
+   width:100%;
+}

@@ -1,0 +1,37 @@
+
+.head
+{
+    position:relative;
+    height:250px;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 220px;
+  }
+  .warn
+  {
+  	font-size: 50px;
+  	margin-top: 25px;
+  	color:#969696
+  }
+  .space
+  {
+  	margin-top: 170px;
+  	margin-bottom: 100px;
+  }
+  .mid
+  {
+    margin-top: 200px;
+    font-size:30px;
+  }
+  .inst
+  {
+    font-size: 50px;
+    margin-bottom: 60px;
+    margin-top: 60px
+  }
+  .footer
+  {
+    color:#648fdf; 
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
